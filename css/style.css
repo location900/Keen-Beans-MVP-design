@@ -45,7 +45,6 @@ main .main_body article .intro_text{
 	display:flex;
 	flex-direction: column;
 	justify-content:center;
-
 }
 
 main .main_body article .intro_text h1{
@@ -60,12 +59,11 @@ main .main_body article .intro_text p{
 
 main .all_cards{
 	margin: auto;
-	background: black;
-	width:390px;
-	height: 219px;
 	display: flex;
 	flex-wrap: wrap;
   flex-direction: row;
+  background: black;
+	width: 780px;
 }
 
 main .all_cards img{
@@ -79,4 +77,9 @@ main .all_cards .single_card h2{
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
    background: black;
+
+}
+
+main .all_cards .single_card a{
+		text-decoration: none;
 }
