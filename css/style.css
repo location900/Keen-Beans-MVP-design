@@ -42,14 +42,41 @@ main .main_body article{
 }
 
 main .main_body article .intro_text{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
 
 }
 
-h2 span {
+main .main_body article .intro_text h1{
+	padding:5px;
+	font-size: 24px;
+}
+
+main .main_body article .intro_text p{
+	padding:5px;
+	font-size: 20px;
+}
+
+main .all_cards{
+	margin: auto;
+	background: black;
+	width:390px;
+	height: 219px;
+	display: flex;
+	flex-wrap: wrap;
+  flex-direction: row;
+}
+
+main .all_cards img{
+	margin: auto;
+	margin-bottom: 0;
+}
+
+main .all_cards .single_card h2{
+	 margin: auto;
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+   background: black;
 }
